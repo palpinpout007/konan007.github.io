@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	display: block;
+	margin:5vh auto auto auto;
+	width: 360px;
+	height: 640px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	
+}
+h1 {	text-align: center;
+		margin: 2vh auto auto auto;
+		padding-top:7px;
+		padding-bottom:7px;
+		color: white;
+		font-size: xx-large;
+	}
+h2 {	text-align: center;
+		margin-top: 0 auto;
+		padding-top:1vh;
+		padding-bottom:3.5vh;
+		color: white;
+		flex-direction:end;
+		font-size: x-large;
+	}
+.box a{	
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	margin: 20px 20px;
+}
+
+.fb{	
+	border-radius: 5px;
+	align-items: center;
+	margin: 1vh 0px;
+	display: flex;
+	height: 5vh;
+	font-size: large;
+	text-align: center;
+}
+.fb:hover{
+	background: #1877f2;
+	color: white;
+}
+.google{
+	border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;
+	font-size: large;
+}
+.google:hover{
+	background-color: red;
+	color: white;
+}
+.X{
+	border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;
+	font-size: large;
+}
+.X:hover{
+	background-color:black;
+	color: white;}
+.linkedin{
+	border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;
+	font-size: large;
+}
+.linkedin:hover{
+	background-color: #0077B5;
+	color: white;
+}
+body{
+	background-image: url(rain-water-green-leaf-macro.jpg);
+	background-position: center;
+	background-size: cover;
+	height:100vh;
+}
+.box a span{
+	text-align: center;
+	align-items: center;
+	display: flex;
+	padding-left: 15%;}
+.box a i{
+	font-size: xx-large;
+	padding-left:10px;}
+.box a{
+	margin-top: 20px;}
+.box:hover{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);;}
+.home{
+	border-radius: 5px;
+	align-items: center;
+	margin: 10px 0px;
+	display: flex;
+	height: 5vh;
+	font-size: large;
+	}
+.home:hover{
+	background-color:black;
+	color:white;
+}		
+.box2 h1{
+	text-align: center;
+}
+.box2 a{
+	display: flex;
+	text-decoration: none;
+	padding:7px 0px;
+	border: 1px solid white;
+	
+}
+.box2 .social-button{
+	border-radius:5px;
+	font-size: large;
+	
+	color: white;
+}
+.box2 .social-button i{
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.social-button:hover{
+	border: none;
+}
